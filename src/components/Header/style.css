@@ -1,0 +1,105 @@
+.header-items {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 32px 24px;
+  border-radius: 26px;
+  opacity: 0px;
+
+  background: linear-gradient(135deg, #379ff2 1.53%, #022fe4 90.79%);
+}
+.header-items .header-vektor_img {
+  position: absolute;
+  top: -32px;
+  right: 10px;
+  opacity: 0.2;
+}
+.header-items .header-info {
+  padding: 10px 20px;
+  border-radius: 200px;
+  border: 1px solid #ffffff;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  color: #ffffff;
+}
+.header-items .header-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 53px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-items .header-menu_items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.header-items .header-menu_item {
+  min-width: 25%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 30px;
+  margin-top: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  opacity: 0px;
+}
+.header-items .header-menu_item span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #050b2b;
+}
+
+.header-items .header-result_items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.header-items .header-result_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+
+  width: 24%;
+  height: 133px;
+  margin-top: 32px;
+  padding: 14px;
+  background-color: #ffffff26;
+  border: 1px solid #ffffff80;
+  border-radius: 20px;
+}
+.header-items .header-result_item span {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 52.5px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ffffff;
+}
+.header-items .header-result_item p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #ffffff;
+}
