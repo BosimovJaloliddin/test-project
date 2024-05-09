@@ -3,7 +3,7 @@ import "./style.css";
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className="navbar-one">
         <div className="navbar-one_city">
           <img src={require("../../assets/imgs/map.png")} alt="map" />
@@ -56,7 +56,7 @@ const Navbar = () => {
           <a href="#/">Вход</a>/<a href="#/">Регистрация</a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

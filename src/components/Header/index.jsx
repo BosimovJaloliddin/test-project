@@ -3,7 +3,7 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className="header-items">
         <img
           className="header-vektor_img"
@@ -53,7 +53,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
