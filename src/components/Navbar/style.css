@@ -1,4 +1,3 @@
-/* navbar one */
 .navbar-one,
 .navbar-two {
   display: flex;
@@ -6,5 +5,115 @@
   justify-content: space-between;
   gap: 4px;
 }
-
+/* navbar one */
+.navbar-one {
+  height: 54px;
+}
+.navbar-one_city {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar-one_city select {
+  width: 100px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.navbar-one_lang select {
+  text-align: center;
+}
+.navbar-one_lang select img {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
 /* navabr two */
+
+.navbar-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+.navbar-two .navbar-two_logo {
+  width: 30%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 22px;
+  padding: 18px 22px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #ffffff;
+}
+.navbar-two .navbar-two_logo span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+}
+
+.navbar-two .navbar-two_catalog {
+  width: 20%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 12px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #0129e3;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+  cursor: pointer;
+}
+.navbar-two .navbar-two_nav {
+  width: 33%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0;
+  padding: 10px 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  list-style: none;
+}
+.navbar-two .navbar-two_nav a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #747474;
+  text-decoration: none;
+}
+.navbar-two .navbar-two_login {
+  width: 15%;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px 30px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #ffffff;
+  color: #0129e3;
+}
+.navbar-two .navbar-two_login a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
+}
