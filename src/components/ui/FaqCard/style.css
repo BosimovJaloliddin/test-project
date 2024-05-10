@@ -1,0 +1,110 @@
+.faq-card {
+  width: 100%;
+  margin-top: 24px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+.faq-card .faq-card_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 24px;
+  background: linear-gradient(135deg, #379ff2 1.53%, #022fe4 90.79%);
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.faq-card .faq-card_info p,
+span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+
+  color: #ffffff;
+}
+
+.faq-card .faq-card_item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4px;
+  margin: 20px;
+}
+.faq-card .faq-card_question {
+  width: 90%;
+  padding: 18px 16px 18px 16px;
+}
+.faq-card .faq-card_question-color {
+  border-radius: 14px 0px 14px 14px;
+  background: #f8f8f8;
+}
+.faq-card .faq-card_question .faq-question_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 1px solid #7474741a;
+}
+.faq-card .faq-card_question .question {
+  color: #0129e3;
+}
+.faq-card .faq-card_question .question-user {
+  color: #747474;
+}
+.faq-card .faq-card_question .faq-question {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: left;
+  margin-top: 16px;
+}
+.faq-card .faq-card_question .faq-question span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: #747474;
+  cursor: pointer;
+  border-bottom: 1px solid #747474;
+}
+
+.faq-card .faq-card_status {
+  width: 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.faq-card .faq-card_status .faq-status_img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #1760d7;
+}
+.faq-card .faq-card_status .faq-status_img img {
+  width: 30px;
+  height: 30px;
+}
+
+/* card-answer */
+.faq-card .faq-card_answer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 20px;
+}
+.faq-card .faq-card_answer-color {
+  border-radius: 0px 14px 14px 14px;
+  background: #0129e3;
+}
+.faq-card .faq-card_question .answer-user,
+.answer {
+  color: #ffff;
+}
+.faq-card .faq-card_question .faq-answer {
+  color: #ffffff;
+}

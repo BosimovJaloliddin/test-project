@@ -1,3 +1,4 @@
+import Faq from "./components/FAQ";
 import Filter from "./components/Filter";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -11,7 +12,7 @@ function App() {
         className="container"
         style={{
           display: "flex",
-          alignItems: "center",
+          alignItems: "flex-start",
           justifyContent: "center",
           gap: "30px",
           marginTop: "42px",
@@ -21,7 +22,7 @@ function App() {
           <Filter />
         </div>
         <div style={{ width: "75%" }} className="comments">
-          Comment
+          <Faq />
         </div>
       </div>
       <div className="footer">Footer</div>
